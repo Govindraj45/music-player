@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.buttons_hover{
+    @apply transition-opacity duration-300 opacity-95
+}
+
+.buttons_hover:hover{
+    opacity: 0.4;
+}
+body{
+    background-color:   #212121;
+}
+.wrapper{
+    background-color:   #FCF5ED ;
+}
